@@ -17,3 +17,11 @@ PizzaOrderForm.prototype.Addpizza = function(){
   pizza.id = this.assignId();
   this.pizzas.push(pizza)
 }
+
+
+
+
+//User interface
+$("document").ready(function(){
+  event.preventDefault();
+})
