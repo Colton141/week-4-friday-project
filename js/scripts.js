@@ -12,3 +12,8 @@ function Pizza(size, topping1, topping2, topping3){
     topping3: topping3
   }
 }
+
+PizzaOrderForm.prototype.Addpizza = function(){
+  pizza.id = this.assignId();
+  this.pizzas.push(pizza)
+}
