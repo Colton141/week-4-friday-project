@@ -10,7 +10,7 @@ This program allows the user to order a pizza with different toppings and differ
 
 ## Spec Sheet
 
-| Behavior      |      Input         | Output |
+| Behavior      |              |  |
 | ------------- |:-------------:     | -----:|
 | This program take a pizza order from the user     |    
 | The program will allow the user to pick what size of pizza they want |
