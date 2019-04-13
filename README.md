@@ -1,24 +1,23 @@
-#  Beep!Boop!
+#  Pizza Order Form
 
-## https://github.com/Colton141/week-3-friday-project/tree/gh-pages
-
-#### breaks down numbers and replace them with beep boop.
+#### Order a pizza of different and toppings and git a price back.
 
 #### By Colton Lacey
 
 ## Description
 
-This program takes a number that the user has inputed and it down from 0 to the number to user put. Then it takes ever number that has a 3 in it and replaces that number in the sting of number with "I'm sorry Dave. I'm afraid I can't do that!". It then takes every number that has a 2 in it and replaces that number in the string with "Boop!". it will also then take every number that has a 1 in it and replaces that number with "Beep!". Last it takes this new string and displays it back to the user.
+This program allows the user to order a pizza with different toppings and different sizes and will give the user back a price of what their pizza will cost. The webpage has 4 simple input fields where the user picks the size of thew pizza, the sauce they'd like, what kind of cheese they want, and what topping they'd like on their pizza. the webpage will then return a price of the pizza back to the user based on the size.
 
 ## Spec Sheet
 
 | Behavior      |      Input         | Output |
 | ------------- |:-------------:     | -----:|
-| The program returns a range of numbers from 0 to the users inputted number     | 4     | 0,2,3,4 |
-| The program will take every number that has a 3 in it and returns "I'm sorry Dave. I'm afraid I can't do that"| 3 |   1, 2, I'm sorry Dave.... |
-| The program takes ever number in the range that has a 2 in it and returns "Boop!" for the whole number | 2   |  1, Boop! |
-|The prgram takes every number in the range that has a 1 in it and returns "Beep!" for the whole number| 3 | Beep!, Boop!, I'm sorry Dave... |
-
+| This program take a pizza order from the user     |    
+| The program will allow the user to pick what size of pizza they want |
+| The program will allow the user to pick what kind of cheese they want on their pizza |
+| The program till allow the user to pick what topping they want on their pizza |
+| This program will allow the user to choose what size of pizza they want |
+| This program returns a price to the user based on what options they choose |
 ## Setup/Installation Requirements
 
 * Clone down this repo to your local files
