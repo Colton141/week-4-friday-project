@@ -21,6 +21,8 @@ function Pizza(size, topping1, topping2, topping3){
   this.topping2 = topping2,
   this.topping3 = topping3
 }
+
+
 //User interface
 var pizzaOrderForm = new PizzaOrderForm();
 
@@ -47,12 +49,6 @@ function DisplayPizzaOrder(orderForm){
     $("#total").html("$12.20");
   }
 };
-
-
-
-
-
-
 
 $("document").ready(function(){
   $("form#order-form").submit(function(event){
